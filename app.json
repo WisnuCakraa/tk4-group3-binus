@@ -15,17 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.binus.tk4binusapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.binus.tk4binusapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Membuat sebuah app dengan integrasi/akses ke Google API"
+    "description": "Membuat sebuah app dengan integrasi/akses ke Google API",
+    "extra": {
+      "eas": {
+        "projectId": "b1d1f523-4f45-412d-b751-c44d778ada49"
+      }
+    }
   }
 }
